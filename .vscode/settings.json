@@ -14,6 +14,8 @@
     "unordered_map": "cpp",
     "unordered_set": "cpp",
     "vector": "cpp",
-    "iosfwd": "cpp"
-  }
+    "iosfwd": "cpp",
+    "ostream": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
