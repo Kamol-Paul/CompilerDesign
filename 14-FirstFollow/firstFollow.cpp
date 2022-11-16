@@ -91,7 +91,7 @@ void getFollow(char ch) {
               follow[ch].insert(x);
             }
 
-            if (first[prod[i]].count('e'))
+            if (first[prod[i]].count('e') || prod[i] == ch)
               continue;
             else
               isGet = false;
