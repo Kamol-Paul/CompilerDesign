@@ -58,7 +58,7 @@ int main() {
   input += '$';
   n = input.size();
   parse_tree.push(input);
-  while (input.size() > 2) {
+  while (input.size() > 2 || (input.size() == 2 && input[0] != 'E')) {
     // parse_tree.push(input);
     bool ok = getReduced();
     if (ok)
